@@ -1,0 +1,49 @@
+.card {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #18181b;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  color: #e5e7eb;
+}
+
+.name {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.threat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+
+.dotLow {
+  background: #22c55e;
+}
+
+.dotMedium {
+  background: #eab308;
+}
+
+.dotHigh {
+  background: #f97316;
+}
+
+.dotCritical {
+  background: #ef4444;
+}
